@@ -64,3 +64,6 @@ class LeastCommonMultipleOfNumbers():
         while b:
             a, b = b, a % b
         return a
+
+LCM = LeastCommonMultipleOfNumbers()
+print(LCM.find_divisible_by_numbers(20))
