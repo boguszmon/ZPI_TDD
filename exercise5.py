@@ -9,3 +9,6 @@ class LeastCommonMultipleOfNumbers():
         while b:
             a, b = b, a % b
         return a
+
+    def least_common_multiple(self, a, b):
+        return int(a * b / self.greatest_common_divisor(a, b))
