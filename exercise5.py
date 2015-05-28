@@ -1,4 +1,5 @@
 __author__ = 'Monika'
 
 class LeastCommonMultipleOfNumbers():
-    pass
+    def __init__(self):
+        self.divisible = 1
