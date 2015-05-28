@@ -21,6 +21,10 @@ class TestLeastCommonMultipleOfNumbers(unittest.TestCase):
         result_lcm = LeastCommonMultipleOfNumbers()
         assert result_lcm.least_common_multiple(4, 6) == 12, "result_lcm is not correct"
 
+    def testFindDivisibleByIntegers(self):
+        result_lcm = LeastCommonMultipleOfNumbers()
+        assert result_lcm.find_divisible_by_numbers(10) == 2520, "result_lcm is not correct"
+
 
 if __name__ == "__main__":
     unittest.main()
